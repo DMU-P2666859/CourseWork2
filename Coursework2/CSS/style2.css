@@ -1,0 +1,32 @@
+section{
+    display: block;
+}
+
+.actors{
+  width: 25%;
+  min-width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.description{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+  font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+  background-color: white;
+}
+
+h3{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 29px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+  font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+  background-color: white;
+}

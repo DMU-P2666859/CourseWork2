@@ -1,0 +1,280 @@
+h1 {
+text-align: center; /* making the words in the centre of the page*/
+background-color:Red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 70px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+body {
+ background-color: lightblue;
+
+}
+
+.Menu{
+display: flex;
+justify-content: space-around:
+}
+/* This section makes the menu bar appear as four squares across the page making it more accessible for the viewer and pleasing to the eye */
+
+nav a {
+color: white; /* making the words white to match the film and colour scheme*/
+padding: 10px; /* making the space around the words a bit thicker as i think it looked better and matched the title*/
+text-decoration: none; /* making sure there is no underlining of the words as it looked better without*/
+flex-grow: 2; /* making the flex box fill the page as it fitted with the layout*/
+text-align: center; /* making the words in the centre of the page matchuing the title*/
+background-color: Red; /* to make the background colour of the title box lightgreen to match the film*/
+transition: 0.1s; /* making the transition between pages 0.1 seconds long so there isnt a long wait between switching pages for the user*/
+font-weight: bolder;  /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+font-size: 40px; /* making the font size slightly larger as it fits more as a menu and lets the viewer see it better and be able to navigate well*/
+outline-style: solid; color: white;  /* making the box outline white to make it look nicer and match the film*/
+}
+/*Making the menu match the title style so it looks pleasing to the eye and keeps with the colour scheme */
+
+nav a:hover{
+  background: white;
+  color: black;
+  outline-color: white;
+  }
+
+/*This section is the appearance of the menu bar the viewer will see when they hover over it with their mouse, i chose these elements as they matches the colour scheme of the website and allowed the viewer to see it well*/
+
+
+h2{text-align: center; /* making the words in the centre of the page*/
+background-color:Red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 70px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+max-width: 1000px;
+margin: auto;
+}
+
+h3{text-align: center;
+  background-color: white;
+}
+
+
+
+p1{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:Black; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p2{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:black; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p3{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p4{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p5{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p6{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p7{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p8{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p9{text-align: center; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p10{text-align:left; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p12{text-align:left; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+p13{text-align:left; /* making the words in the centre of the page*/
+background-color:red; /* to make the background colour of the title box lightgreen to match the film*/
+color:white; /* to make the font colour white, again to match the film and make the website pleasing to the eye*/
+font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+outline-style: solid; color: white; /* making the box outline white to make it look nicer and match the film*/
+position: static; /* to make the title stay on the page and cant be moved*/
+width: 100%; /* making the title spread across the whole top of the page*/
+margin-top: 10px;  /* adding space above to make the layout look better*/
+margin-bottom: 10px;  /* adding space below to make the layout look better*/
+}
+
+
+h3{
+  text-align-last: left;
+}
+
+
+section{
+    display: block;
+}
+
+.actors{
+  width: 25%;
+  min-width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.description{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 25px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+  font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+  background-color: white;
+}
+
+h3{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 29px; /* making the font size alot larger as it fits more as a title and lets the viewer see it better and be able to navigate well*/
+  font-weight: bolder; /* to make the font appearance bolder allowing the viewer to see it better and show that its a bold title*/
+  background-color: white;
+}
+
+img{
+  width: 99%;
+  min-width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.VIDEOS{
+  margin-top: 80px;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 80px;
+}
+
+.PhaseFour{
+   width: 500px;
+   height: 500px;
+   transition: width 1s, height 1s, transform 1s;
+}
+
+.PhaseFour:hover{
+   width: 1900px;
+   height: 1900px;
+   transform: scale();
+}
+
+.Socials{
+width: 400px;
+height:400px;
+}
